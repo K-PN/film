@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        4-Film
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>KP <span class="main-color">Film</span>
+                </a>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="">
+                    <video autoplay muted loop id="video1" class="video1">
+                        <source src="joker-dance.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/black-banner.png" alt="">
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/wanda-banner.jpg" alt="">
+                </div>
+                <!-- END SLIDE ITEM -->
+            </div>
+        </div>
+        <!-- END HERO SLIDE -->
+
+        <!-- TOP MOVIES SLIDE -->
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#il-mare">
+                <img src="./images/movies/il-mare.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Il Mare
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 36 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#brooklyn">
+                <img src="./images/movies/brooklyn.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Brooklyn
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 51 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lady-bird">
+                    <img src="./images/movies/lady-bird.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Lady Bird
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 34 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#edward-scissorhands">
+                    <img src="./images/movies/edward-scissorhands.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Edward Scissorhands
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 45 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#esotsm">
+                    <img src="./images/movies/esotsm.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Eternal Sunshine of the Spotless Mind
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 47 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#titanic">
+                    <img src="./images/movies/titanic.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Titanic
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 14 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#romeo-juliet">
+                    <img src="./images/movies/romeo-juliet.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Romeo Juliet
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>6.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 0 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#casablanca">
+                    <img src="./images/movies/casablanca.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Casablanca
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 42 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-da-vinci-code">
+                    <img src="./images/movies/the-da-vinci-code.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Da Vinci Code
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 29 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#muoi-hai-angry-men">
+                    <img src="./images/movies/12-angry-men.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            12 Angry Men
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 36 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#finding-neverland">
+                    <img src="./images/movies/finding-neverland.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Finding Neverland
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 41 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#little-women">
+                    <img src="./images/movies/little-women.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Little Women
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 14 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#breaking-bad">
+                    <img src="./images/series/breaking-bad.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Breaking Bad <span class="series">  .series</span>
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>43-60 phút/tập</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#goodfellas">
+                    <img src="./images/movies/goodfellas.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Goodfellas
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 25 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-silence-of-the-lambs">
+                    <img src="./images/movies/the-silence-of-the-lambs.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Silence Of The Lambs
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 58 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-irishman">
+                    <img src="./images/movies/the-irishman.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Irishman
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 29 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#donnie-brasco">
+                    <img src="./images/movies/donnie-brasco.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Donnie Brasco
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 27 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="# he-godfather">
+                    <img src="./images/movies/the-godfather.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 57 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-godfather-2">
+                    <img src="./images/movies/the-godfather-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather: Part II
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 22 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-godfather-3">
+                    <img src="./images/movies/the-godfather-3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather: Part III
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 50 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#catch-me-if-you-can">
+                    <img src="./images/movies/catch-me-if-you-can.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Catch Me If You Can
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.1</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 20 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-1">
+                    <img src="./images/movies/lord-rings-1.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings 1: The Fellowship of the Ring
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 48 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-2">
+                    <img src="./images/movies/lord-rings-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings: The Two Towers
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 55 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-3">
+                    <img src="./images/movies/lord-rings-3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings 3: The Return of the King
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>4 giờ 23 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#inception">
+                    <img src="./images/movies/inception.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Inception
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 28 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#avengers-end-game">
+                    <img src="./images/movies/avengers-end-game.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Avengers: Endgame
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 1 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#chautinhtri-tdk-1">
+                    <img src="./images/movies/chautinhtri-tdk-1.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            A Chinese Odyssey: Part One - Pandora's Box
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 28 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#chautinhtri-tdk-2">
+                    <img src="./images/movies/chautinhtri-tdk-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            A Chinese Odyssey: Part Two - Cinderella
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 39 phút
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+        <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- TÌNH CẢM - LÃNG MẠN SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Tình cảm - Lãng mạn
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#il-mare">
+                <img src="./images/movies/il-mare.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Il Mare
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 36 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#brooklyn">
+                <img src="./images/movies/Brooklyn.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Brooklyn
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 51 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lady-bird">
+                    <img src="./images/movies/lady-bird.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Lady Bird
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 34 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#edward-scissorhands">
+                    <img src="./images/movies/edward-scissorhands.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Edward Scissorhands
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 45 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#esotsm">
+                    <img src="./images/movies/esotsm.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Eternal Sunshine of the Spotless Mind
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 47 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#titanic">
+                    <img src="./images/movies/titanic.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Titanic
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 14 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#romeo-juliet">
+                    <img src="./images/movies/romeo-juliet.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Romeo Juliet
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>6.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 0 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#casablanca">
+                    <img src="./images/movies/casablanca.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Casablanca
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 42 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END TÌNH CẢM - LÃNG MẠN SECTION -->
+
+    <!-- CHÍNH KỊCH SERIES SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Chính kịch
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-da-vinci-code">
+                    <img src="./images/movies/the-da-vinci-code.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Da Vinci Code
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 29 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#muoi-hai-angry-men">
+                    <img src="./images/movies/12-angry-men.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            12 Angry Men
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 36 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#finding-neverland">
+                    <img src="./images/movies/finding-neverland.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Finding Neverland
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 41 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#little-women">
+                    <img src="./images/movies/little-women.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Little Women
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 14 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END CHÍNH KỊCH SECTION -->
+
+    <!-- TỘI PHẠM SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Tội phạm
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#breaking-bad">
+                    <img src="./images/series/breaking-bad.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Breaking Bad <span class="series">  .series</span>
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>43-60 phút/tập</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#goodfellas">
+                    <img src="./images/movies/goodfellas.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Goodfellas
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 25 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-silence-of-the-lambs">
+                    <img src="./images/movies/the-silence-of-the-lambs.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Silence Of The Lambs
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 58 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-irishman">
+                    <img src="./images/movies/the-irishman.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Irishman
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 29 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#donnie-brasco">
+                    <img src="./images/movies/donnie-brasco.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Donnie Brasco
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 27 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="# he-godfather">
+                    <img src="./images/movies/the-godfather.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 57 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-godfather-2">
+                    <img src="./images/movies/the-godfather-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather: Part II
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 22 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#the-godfather-3">
+                    <img src="./images/movies/the-godfather-3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Godfather: Part III
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 50 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#catch-me-if-you-can">
+                    <img src="./images/movies/catch-me-if-you-can.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Catch Me If You Can
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.1</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 20 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END TỘI PHẠM SECTION -->
+
+    <!-- PHIÊU LƯU - HÀNH ĐỘNG SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Phiêu lưu - Hành động  
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-1">
+                    <img src="./images/movies/lord-rings-1.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings 1: The Fellowship of the Ring
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 48 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-2">
+                    <img src="./images/movies/lord-rings-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings: The Two Towers
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 55 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#lord-rings-3">
+                    <img src="./images/movies/lord-rings-3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lord of the Rings 3: The Return of the King
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>4 giờ 23 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#inception">
+                    <img src="./images/movies/inception.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Inception
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 giờ 28 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END PHIÊU LƯU - HÀNH ĐỘNG SECTION -->
+
+    <!-- SIÊU ANH HÙNG SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Siêu anh hùng
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#avengers-end-game">
+                    <img src="./images/movies/avengers-end-game.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Avengers: Endgame
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 giờ 1 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END SIÊU ANH HÙNG SECTION -->
+
+    <!-- HÀI SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Hài
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#chautinhtri-tdk-1">
+                    <img src="./images/movies/chautinhtri-tdk-1.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            A Chinese Odyssey: Part One - Pandora's Box
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 28 phút</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item video-btn" data-toggle="modal" data-target="#chautinhtri-tdk-2">
+                    <img src="./images/movies/chautinhtri-tdk-2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            A Chinese Odyssey: Part Two - Cinderella
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 giờ 39 phút
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END HÀI SECTION -->
+
+    <!-- MODAL -->
+    <!--1-->
+    <div class="modal fade" id="il-mare" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Il Mare(2000)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1vHafys7fvjIYenIPCTCVc59r7tT62NUd/preview" id="video" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--2-->
+    <div class="modal fade" id="brooklyn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Brooklyn(2015)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/13QhkfIO3iVGKirjsz1-0Xu6ba7quW2-7/preview" id="video2" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--3-->
+    <div class="modal fade" id="lady-bird" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Lady Bird(2017)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1veayMTBbnrUUG77CWRCmc-BAsqYH_TK_/preview" id="video3" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--4-->
+    <div class="modal fade" id="edward-scissorhands" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Edward Scissorhands(1990)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1vHBV_GmQ0PfWgS08HAXaYSxP5u5ajN1s/preview" id="video4" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--5-->
+    <div class="modal fade" id="Brooklyn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Brooklyn(2015)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1stOWpFPk-yy9H89seJD26h2H4boRgUvV/preview" id="video5" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--6-->
+    <div class="modal fade" id="esotsm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Eternal Sunshine of the Spotless Mind(2004)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/10YJIpj6jrO5CY-1y2wclyIHVYGltrkPT/preview" id="video6" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--7-->
+    <div class="modal fade" id="Brooklyn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Brooklyn(2015)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1stOWpFPk-yy9H89seJD26h2H4boRgUvV/preview" id="video7" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--8-->
+    <div class="modal fade" id="titanic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Titanic(1997)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/18QuTXCivRxTiTU6f7tdNOQ-VUKV-OmER/preview" id="video8" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--9-->
+    <div class="modal fade" id="brooklyn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Brooklyn(2015)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1stOWpFPk-yy9H89seJD26h2H4boRgUvV/preview" id="video9" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--10-->
+    <div class="modal fade" id="romeo-juliet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Romeo Juliet(1996)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1ALdYwxN7vll-qQVWfkLJO8zRolR4iwKR/preview" id="video10" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--11-->
+    <div class="modal fade" id="casablanca" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Casablanca(1942)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1YVxcFx8VKuMrXdAU3upJX28g2FeHQ6MY/preview" id="video11" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--12-->
+    <div class="modal fade" id="the-da-vinci-code" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Da Vinci Code(2006)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1FWN3_OrLct8LMd2OmdJhjtyRrHoEOPXK/preview" id="video12" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--13-->
+    <div class="modal fade" id="muoi-hai-angry-men" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">12 Angry Men(2015)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1FqiucfayorLU4dvEzDTCTqN8XtMLDpr_/preview" id="video13" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--14-->
+    <div class="modal fade" id="finding-neverland" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Finding Neverland(2004)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1_Q32DlsnfNpkiX8FdY64t38caCybpIHj/preview" id="video14" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--15-->
+    <div class="modal fade" id="little-women" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Little Women(2019)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1MIdxmm6VufcCCv9Zfw1sVOv8m7yTn_t0/preview" id="video15" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--16-->
+    <div class="modal fade" id="goodfellas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Goodfellas(1990)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1stOWpFPk-yy9H89seJD26h2H4boRgUvV/preview" id="video16" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--17-->
+    <div class="modal fade" id="the-silence-of-the-lambs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Silence Of The Lambs(1991)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1VZ8dj7ByITPgy61h-TcUiqlAJ1r-V5S7/preview" id="video17" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--18-->
+    <div class="modal fade" id="the-irishman" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Irishman(2019)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="/preview" id="video18" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--19-->
+    <div class="modal fade" id="donnie-brasco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Donnie Brasco(1997)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="/preview" id="video19" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--20-->
+    <div class="modal fade" id="the-godfather" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Godfather(1972)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="/preview" id="video20" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--21-->
+    <div class="modal fade" id="the-godfather-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Godfather: Part II(1974)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="/preview" id="video21" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--22-->
+    <div class="modal fade" id="the-godfather-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Godfather: Part III(1990)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="/preview" id="video22" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--23-->
+    <div class="modal fade" id="catch-me-if-you-can" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Catch Me If Yoy Can(2002)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/198Ya-322L16ubDxH-Dy_OOyDPEkWSGE-/preview" id="video23" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--24-->
+    <div class="modal fade" id="lord-rings-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Lord of the Rings: The Fellowship of the Ring(2001)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1Dz662PauwZX9PMr7tyexcKJaX1L-_oZH/preview" id="video24" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--25-->
+    <div class="modal fade" id="lord-rings-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Lord of the Rings: The Two Towers(2002)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1wWhVVYEMUpYxTu6GI31oD-qbimr9BPgs/preview" id="video25" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--26-->
+    <div class="modal fade" id="lord-rings-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Lord of the Rings: The Return of the King(2003)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1UOu0ABHxkvcAtWK-NiXU8QJ6Oy565VgU/preview" id="video26" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--27-->
+    <div class="modal fade" id="inception" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Inception(2010)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/19O9DDop8ZWpn38bThV42EHi4yTbwrqQk/preview" id="video27" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--28-->
+    <div class="modal fade" id="batman-vs-red-hood" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Batman: Under the Red Hood(2010)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/12FazEwF6qf75MQ4CRqsd2CWGKVk1tg3I/preview" id="video28" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--29-->
+    <div class="modal fade" id="chautinhtri-tdk-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">A Chinese Odyssey(1995)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1X4S6__ewW6WUBepyFFvmOSG1TMHqUxZA/preview" id="video29" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--30-->
+    <div class="modal fade" id="chautinhtri-tdk-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">A Chinese Odyssey: Part II(1995)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/10jF3uHGgEvwsdfomFkJuWf57PjtHKl0T/preview" id="video30" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--31-->
+    <div class="modal fade" id="the-dark-knight" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">The Dark Knight(2008)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/12KshbuHQ_iNvpEvchoZll7AaX_RCcTtV/preview" id="video31" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--32-->
+    <div class="modal fade" id="avengers-end-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="button__holder">
+                <button class="plus" onclick="javascript:player.api('pause')" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <span class="titleFilm">Avengers: Endgame(2019)</span>
+            </div>
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://drive.google.com/file/d/1PQnF_RS38hIIUg4niBvQXOhAc0_EJ0pW/preview" id="video32" allow="autoplay" width="70%" height="80%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END MODAL-->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2022 <a href="#" target="_blank">
+            KP</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+    <script src="database.js"></script>
+
+    <script>
+        var video1 = document.getElementById('video1');
+        
+        function imgTransition(){
+            video1.play();
+            video1.style.opacity=1;
+        }
+    </script>
+</body>
+
+</html>
