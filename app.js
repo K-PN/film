@@ -56,3 +56,10 @@ $(document).ready(() => {
         }
     })
 })
+
+var video1 = document.getElementById('video1');
+        
+        function imgTransition(){
+            video1.play();
+            video1.style.opacity=1;
+        }
