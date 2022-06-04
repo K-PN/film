@@ -625,14 +625,14 @@ footer .content {
         left: 0;
     }
 
-    .video1 {
+    .videoSlide {
         height: 460px;
     }
 
 }
 
 @media(max-width: 769px) {
-    .video1 {
+    .videoSlide {
         height: 235px;
     }
 }
