@@ -624,6 +624,17 @@ footer .content {
     .nav-menu.active {
         left: 0;
     }
+
+    .video1 {
+        height: 460px;
+    }
+
+}
+
+@media(max-width: 769px) {
+    .video1 {
+        height: 235px;
+    }
 }
 /* The Modal (background) */
 .modal {
@@ -712,6 +723,6 @@ footer .content {
       margin-left: 1%;
   }
 
-.video1{
+.video1 {
     opacity:1;
 }
