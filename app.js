@@ -57,9 +57,9 @@ $(document).ready(() => {
     })
 })
 
-var video1 = document.getElementById('video1');
+var videoSlide = document.getElementById('videoSlide');
         
         function imgTransition(){
-            video1.play();
-            video1.style.opacity=1;
+            videoSlide.play();
+            videoSlide.style.opacity=1;
         }
