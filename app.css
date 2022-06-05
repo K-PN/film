@@ -626,14 +626,14 @@ footer .content {
     }
 
     .videoSlide {
-        height: 460px;
+        height: 461px;
     }
 
 }
 
 @media(max-width: 769px) {
     .videoSlide {
-        height: 235px;
+        height: 225px;
     }
 }
 /* The Modal (background) */
