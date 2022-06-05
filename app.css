@@ -630,6 +630,7 @@ footer .content {
         left: 0;
     }
     .videoSlide {
+        top: 0;
         height: 100%;
     }
 }
@@ -639,6 +640,7 @@ footer .content {
         height: 307px;
     }
     .videoSlide {
+        top: 0;
         height: 100%;
     }
 }
@@ -647,6 +649,7 @@ footer .content {
         height: 152px;
     }
     .videoSlide {
+        top: 0;
         height: 100%;
     }
 }
