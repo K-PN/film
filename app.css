@@ -207,6 +207,150 @@ a.movie-item:hover {
     left: 6px;
 }
 
+.touch {
+    top: 0;
+    width: 41px;
+    height: 400px;
+    position: fixed;
+    right: 10px;
+    z-index: 1000;
+}
+
+.menu-chinh {
+    width: 90px;
+    height: 180px;
+    top: 355px;
+    left: 10px;
+    background-color: rgba(43, 49, 53, 0.7);
+    border: 8px solid #292325;
+    padding: 8px 8px 5px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu-list {
+    width: 350px;
+    height: 350px;
+    top: 300px;
+    right: 60px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 30%;
+    background-color: rgba(43, 49, 53, 0.7);
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+.menu-list div:hover {
+    transform: scale(1,1.1);
+}
+
+.menu-1 {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 140px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inherit;
+}
+
+.menu-1 span {
+    width: max-content;
+    margin-top: 0;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
+.menu-2 {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-2 span {
+    width: max-content;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
+
+.menu-3 {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-3 span {
+    width: max-content;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
+.menu-4 {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-4 span {
+    width: max-content;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
+.menu-5 {
+    width: 60px;
+    height: 60px;
+    margin-left: 140px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-5 span {
+    width: max-content;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
+.menu-6 {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 140px;
+    font-size: 55px;
+    cursor: pointer;
+    display: inherit;
+}
+
+.menu-6 span {
+    width: max-content;
+    font-size: 15px;
+    color: red;
+    display: flex;
+}
+
 .hero-slide-item {
     padding-top: 40%;
     overflow: hidden;
