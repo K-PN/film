@@ -1,2 +1,5 @@
 ﻿Chuyển srt thành vtt
 https://atelier.u-sub.net/srt2vtt/
+Google APIs
+AIzaSyCpF4eR2yXsVbJqec-0nnFnf4n9O2gdHkI
+AIzaSyB7H3uPjHUBuzJOFlGVA6KG7q22dtWiwc0
